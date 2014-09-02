@@ -1,0 +1,92 @@
+#todo {
+  width:300px;	
+  margin: 0 auto;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #000;
+}
+
+#list, .container {
+  padding-left:0px;	
+  margin: 0 auto;
+  list-style-position: inside;
+  font-weight: bold;
+  list-style: none;
+}
+
+#list li:before {
+  font-weight: normal;
+}
+
+#list li {
+  text-align: left;
+  padding-bottom: 5px;
+  position: relative;
+}
+
+#list li, #next {
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+}
+
+textarea {
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  overflow: hidden;
+  padding: 0px;
+  margin: 0px;
+}
+
+.widgets {
+  display: none;
+  float: right;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+
+.content {
+  margin-left: 0.5em;
+  display: inline-block;
+}
+
+.remove {
+  display: block;
+}
+
+.item:hover > .widgets {
+  display: block;
+}
+
+.edit {
+  font-size: 100%;
+  margin-top: -3px;
+  margin-left: -3px;
+  height: 1.3em;
+  width: 99%;
+  border: 1px solid #eee;
+}
+
+.update .edit {
+  margin: 0;
+  margin-left: 0.47em;
+  padding: 0;
+  margin-top: -1px;
+  margin-bottom: -7px;
+}
+
+
+#new-item {
+  white-space:nowrap;
+}
+
+#next {
+  margin-left: .5em;
+}

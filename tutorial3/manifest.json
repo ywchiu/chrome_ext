@@ -1,0 +1,25 @@
+{
+
+	"manifest_version": 2,
+	"name": "Price Exchange Helper",
+	"description": "Price Exchange Helper",
+	"version": "1",
+
+	"page_action": {
+		"default_title": "usd exchange",
+		"default_popup": "popup.html"
+	},
+
+	"background": {
+		"scripts": ["eventPage.js"],
+		"persistent": false
+	},
+	"content_scripts": [
+		{
+			"matches": ["http://24h.pchome.com.tw/prod/*"],
+			"js": ["priceexchange_cs.js", "jquery.js"],
+			"css": ["priceexchange_cs.css"]
+		}
+	],
+	"permissions": ["tabs", "http://24h.pchome.com.tw/*"]
+}

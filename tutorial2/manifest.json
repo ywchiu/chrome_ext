@@ -1,0 +1,16 @@
+{
+	"manifest_version": 2,
+	"name": "Todo List",
+	"description": "This is a todo list",
+	"version": "1",
+
+	"browser_action": {
+		"default_popup": "popup.html"
+	},
+	"options_page": "options.html",
+	"background": {
+		"scripts": ["eventPage.js"],
+		"persistent": false
+	},
+	"permissions": ["storage", "notifications", "contextMenus"]
+}
