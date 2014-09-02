@@ -1,4 +1,8 @@
-chrome_ext
+Chrome Extension Development
 ==========
 
-chrome_ext
+Slide: https://www.slideshare.net/secret/F6FGX1kVIANPUG
+
+Password: ezprice
+
+
